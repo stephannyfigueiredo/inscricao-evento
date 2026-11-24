@@ -1,0 +1,25 @@
+:root {
+  --cor-primaria: #0b4f9c;
+  --cor-primaria-escura: #083a73;
+  --cor-destaque: #e4572e;
+  --cor-fundo: #f2f5fa;
+  --cor-cartao: #ffffff;
+  --cor-texto: #1f2933;
+  --cor-texto-suave: #5f6b7a;
+  --cor-borda: #d4dbe5;
+  --cor-erro: #c62828;
+  --raio: 10px;
+  --sombra: 0 4px 14px rgba(15, 40, 80, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, 'Segoe UI', Roboto, Arial, sans-serif;
+  color: var(--cor-texto);
+  background-color: var(--cor-fundo);
+}

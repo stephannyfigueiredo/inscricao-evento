@@ -1,0 +1,28 @@
+.campo-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.campo-texto label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.campo-texto input,
+.campo-texto select {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: 8px;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.25s;
+}
+
+.campo-texto input:focus,
+.campo-texto select:focus {
+  outline: none;
+  border-color: var(--cor-primaria);
+  box-shadow: 0 0 0 3px rgba(11, 79, 156, 0.2);
+}
